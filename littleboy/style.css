@@ -1,0 +1,622 @@
+/*
+Theme Name: littleboy
+Author: mohammad ali
+Author URI: mixa.ir/team/mohammadalisalehi
+Description: This WordPress theme is 100% responsive blah blah...
+Version: 1.0
+Tags: one-column, no-sidebar, responsive-grid, etc
+*/
+
+body {
+	direction: rtl;
+  min-height: 100%;
+}
+
+h1 ,h2, h3{
+	font-weight: bold;
+}
+
+/*----------------------------------------> header*/
+header {
+	background-color: #08538c;
+	width: 100%;
+}
+
+header ul {
+	padding-right: 2%;
+}
+
+header ul li {
+  display: inline-block;
+  float: right;
+}
+
+header ul li:nth-child(2) {
+  position: relative;
+  transition :.3s;
+}
+
+/*ul .sub-menu:hover {
+  display: block;
+}*/
+
+header ul li a {
+  line-height: 70px;
+  display: inline-block;
+  padding:  0 13px;
+  font-size: 1.7em;
+  color: #eee;
+}
+
+header >ul li a:hover {
+  background-color: #07416d;
+  color: #eee;
+}
+
+header ul li a:hover {
+  background-color: #07416d;
+  color: #eee;
+}
+
+.current-menu-item{
+  background-color: #07416d;
+  color: #eee;
+}
+
+/*ul .sub-menu{
+  padding: 0;
+  width: 100%;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  background-color: #08538c;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: #eee;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}*/
+/*
+header ul li:nth-child(2):hover .sub-menu{
+  display: block;
+}
+
+header .sub-menu li a:hover {
+  background-color: #07416d;
+}
+
+header .sub-menu li a{
+  font-size: 1.3em;
+  text-align: center;
+  width: 100%;
+  line-height: 70px;
+}
+
+header .sub-menu li {
+  width: 100%;
+}*/
+
+/*----------------------------------------> Cover*/
+
+a{
+  color: #222;
+}
+
+a:hover{
+  color: #08538c;
+}
+
+footer a{
+  display: block;
+}
+
+#onvan {
+  display: block;
+  font-size: 2.3em;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.span4 a:hover{
+  background-color: #ccc;
+}
+
+.span4 a{
+  padding: 10px 0;
+  font-size: 1.4em;
+  color: #272727;
+}
+
+.span4 a:hover{
+  color: #272727;
+}
+
+.span4 p{
+  margin-bottom: 0;
+  line-height: 3em;
+  margin-bottom: 1em;
+
+}
+
+.span2{
+  text-align: center;
+  border: 1px solid transparent;
+  /*opacity: .8;*/
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+
+.span2 img{
+  opacity: .8;
+}
+
+.span2:hover img{
+  opacity: 1;
+}
+
+.span2:hover{
+  border: 1px solid #ddd;
+}
+
+#cover {
+	background: url("images/cover.jpg") no-repeat;
+	height: 702px;
+	background-size: cover;
+}
+
+/*#cover2 {
+  background: url("images/cover2.jpg") no-repeat;
+  height: 415px;
+  background-size: cover;
+}*/
+header h1 {
+     margin-bottom: 0;
+    text-align: center;
+    font-size: 4em;
+    color: #e1dcf5;
+    font-weight: bold;
+    /*background-color: #261798*/
+}
+
+
+
+#cover h1{
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #261798;
+  /*background-color: rgba(33, 30, 30, 0.56);*/
+  /*display: inline-block;*/
+}
+
+/*----------------------------------------> widget*/
+.main_widget article{
+  border: 1.5px solid #eee;
+  padding:10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.widget{
+
+}
+
+.empty_thum{
+  min-height: 150px;
+}
+
+.widget h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.widget p {
+  line-height: 1.7em;
+  font-size: 1.6em;
+}
+
+.main_widget {
+  background-color: ;
+}
+
+
+/*----------------------------------------> category*/
+/*.main_category, .page, .frontpage, #main_single, #main, #main_single .span9{
+  min-height:calc(100% - 258px);
+}*/
+
+.frontpage+div{
+  padding: 20px 0;
+
+}
+
+#main_single {
+   min-height:calc(100% - 165px);
+}
+.main_category{
+  padding: 20px;
+}
+
+#main_single ,#main {
+  background-color: #eee;
+}
+
+#main_single .widget{
+  padding: 0px 10px 10px 10px;
+}
+
+#main_single .span9 {
+  padding: 10px 20px;
+  box-shadow: -3px 2px 8px -5px rgba(89,109,168,1);
+  text-align: justify;
+}
+
+#main_single .span9 p{
+  line-height: 30px;
+  font-size: 1.7em;
+}
+
+#main_single .span9 h2{
+  margin-bottom: 0;
+  padding-right: 5px;
+  font-size: 3em;
+}
+
+#main_single .span3{
+  /*min-height:calc(100% - 110px);*/
+  box-shadow: box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+#main_single .widget a {
+  font-size: 1.7em;
+  line-height: 30px;
+  padding: 0 5px 0 0 ;
+  display: block;
+  color: #222;
+  transition:.3s;
+}
+
+#main_single .widget a:hover{
+  color: #222;
+  background-color: rgba(8,83,140,.25);
+  display: block;
+}
+
+.news .span2{
+  text-align: center;
+  margin-bottom: 5px;
+  opacity: .8;
+  transition: 0.3s;
+
+}
+
+.news .span2 a {
+  color: #777;
+  font-weight: 700;
+}
+
+.news .span2:hover a {
+  color:#000;
+  font-weight: 700;
+}
+
+.news .span2:hover {
+  opacity: 1;
+}
+
+/*----------------------------------------> footer*/
+
+footer h3 {
+  border-bottom: solid 2px #c1c1c1;
+  margin-bottom: 0;
+}
+
+footer{
+  /*background-color: #ddd;*/
+  text-align: center;
+  /*min-height: 200px;*/
+
+}
+
+footer ul li {
+  /*display: inline-block;*/
+  font-size: 1.5em;
+  padding: 0 10px;
+  /*line-height: 50px;*/
+    /*float: right;*/
+}
+
+.category_footer{
+background-color: #ddd;
+padding: 20px 0 10px 0;
+}
+
+.category_footer p {
+  line-height: 1em;
+}
+/*----------------------------------------> Copy right*/
+#copyright {
+	position: relative;
+	background-color: #08538c;
+	width: 100%;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+#copyright a{
+	display: inline-block;
+	color: #ddd;
+	line-height: 40px;
+	transition:.3s;
+  text-align: center;
+}
+
+#copyright a:hover{
+	color: #fff;
+}
+
+.page {
+  background-color: #eee;
+}
+
+.page h2 {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 15px;
+}
+
+.contact p {
+  margin-bottom: 15px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.contact{
+margin-bottom: 50px;
+}
+
+.map_about{
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+}
+
+.map_about iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/*----------------------------------------> Contact Form*/
+
+
+/* —---------------------------------- body - main */
+
+.wpcf7-form{
+  text-align: center;
+}
+
+.wpcf7-form input{
+  border: none;
+  background-color: #fff;
+  outline: none;
+  min-height: 40px;
+  padding: 5px 10px;
+  border-radius: 1px;
+  min-width: 100%;
+  max-width: 100%;
+  border: none;
+  color: #444;
+  -webkit-appearance:none;
+  border-right: 8px solid rgb(183, 84, 84);
+  border-right: 8px solid transparent;
+}
+
+.wpcf7-form input:hover{
+  border-right: 8px solid rgb(183, 84, 84);
+}
+
+.wpcf7-form input:focus{
+  border-right: 8px solid rgb(183, 84, 84);
+  outline: none;
+}
+
+.wpcf7-form input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.wpcf7-form textarea{
+  background-color: #fff;
+  width: 500px;
+  min-height: 100px;
+  height: 300px;
+  max-height: 500px;
+  padding: 15px;
+  min-width: 50%;
+  max-width: 100%;
+  border: none;
+  border-radius: 1px;
+  border-right:8px solid #2888bb;
+  border-right:8px solid transparent;
+}
+
+.wpcf7-form textarea:focus{
+  border-right:8px solid #2888bb;
+}
+
+.wpcf7-form textarea:hover{
+  border-right:8px solid #2888bb;
+}
+
+.wpcf7-form input[type="submit"]{
+  border: none;
+  background: #2888bb;
+  color: #eee;
+  transition: all 0.25s;
+  display: inline-block;
+  /*border-radius: 4px;*/
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3em;
+  width: 20%;
+  color: #eee;
+  margin-top: 7px
+}
+
+.wpcf7-form input[type="submit"]:hover{
+  background-color: #166e9d;
+  color: #fff;
+  border: none;
+}
+
+.wpcf7-form p{
+  padding: 0;
+  margin: 5px;
+}
+
+.wpcf7{
+  margin: 0 auto!important;
+}
+
+.wpcf7 textarea, .wpcf7 input{
+  width: 100%;
+}
+
+.wpcf7 .wpcf7-submit{
+  width: 100%;
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.3em;
+}
+
+.wpcf7 .wpcf7-submit:hover{
+  background-color:#ddd
+}
+
+.wpcf7 .wpcf7-submit:focus{
+  background-color:#ccc
+}
+
+div.wpcf7 {
+  margin: 0;
+  padding: 0;
+}
+
+div.wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.wpcf7-not-valid {
+  border: 1px solid #C34848;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+  border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+  border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+  border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #f00;
+  font-size: 1em;
+  display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 100;
+  border: 1px solid #ff0000;
+  background: #fff;
+  padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+  margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+  display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+  border: none;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+  display: none;
+}
+
+div.wpcf7 .placeheld {
+  color: #888;
+}
+
+span.wpcf7-not-valid-tip {
+  direction: rtl;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+  left: auto;
+  right: 20%;
+}
+
+span.wpcf7-list-item {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+#wpcf7-f44-p26-o1 .span6 {
+  padding-top: 0;
+  margin-top: -10px;
+}
+
+.wpcf7 textarea {
+  height: 150px;
+  max-height: 300px;
+}
+
+#wpcf7-f44-p26-o1 .row {
+  margin-top: -34px;
+  background-color: #84b7de;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wpcf7-validation-errors{
+  display: none;
+}
